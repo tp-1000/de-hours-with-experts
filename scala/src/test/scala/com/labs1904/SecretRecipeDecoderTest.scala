@@ -2,11 +2,11 @@ package com.labs1904
 
 import org.scalatest.FunSpec
 
-class SecretRecipeDecoderTest extends FunSpec {
+class  SecretRecipeDecoderTest extends FunSpec {
 
   describe("Testing decode_string") {
     it("can decode a string") {
-      assert(SecretRecipeDecoder.decodeString("abc") === "yhv")
+      assert(SecretRecipeDecoder.decodeString("abc") === "ijz")
     }
   }
 
